@@ -55,7 +55,7 @@ Adam-Asmaca-Java-Swing/
 │   │   ├── kelimeler.txt      # Oyunda rastgele seçilecek kelimelerin havuzu (En az 6 harfli)
 │   │   ├── oyunlar.txt        # Oynanan oyunların tarih, süre ve sonuç kayıtları
 │   │   ├── log.txt            # Oyun sonu bildirimleri ve yetkisiz silme (yanlış şifre) denemesi kayıtları
-│   │   └── sifre.txt          # Skor ve log tablolarını temizlemek için gereken yönetici şifresi
+│   │   └── sifre.txt          # Giriş,skor ve log tablolarını temizlemek için gereken yönetici şifresi
 │   │
 │   └── Resimler/
 │       ├── 1.jpg              # Başlangıç durumu (boş darağacı)
@@ -63,7 +63,7 @@ Adam-Asmaca-Java-Swing/
 │       └── 11.jpg             # Oyun bitiş durumu (tamamlanmış adam asmaca)
 │
 └── README.md                  # Proje tanıtım, kurulum ve kullanım dokümantasyonu
-
+```
 ## 🛠️ Kullanılan Teknolojiler
 * Java (JDK 8+)
 * Swing (GUI)
