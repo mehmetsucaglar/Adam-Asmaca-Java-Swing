@@ -64,6 +64,34 @@ Adam-Asmaca-Java-Swing/
 │
 └── README.md                  # Proje tanıtım, kurulum ve kullanım dokümantasyonu
 ```
+
+## 🧩 Kod Mimarisi (OyunEkrani.java)
+
+Oyunun tüm mantığı, arayüz bileşenleri ve dosya işlemleri modüler metotlar halinde `OyunEkrani.java` içerisinde yapılandırılmıştır. Temel işlev ağacı şu şekildedir:
+
+```text
+OyunEkrani.class/
+├── OyunEkrani() (Constructor)
+│   ├── initComponents()       # NetBeans tarafından oluşturulan arayüz bileşenlerini yükler
+│   ├── skorlariDoldur()       # Açılışta oyunlar.txt dosyasını okuyup skor tablosuna yansıtır
+│   └── loglariDoldur()        # Açılışta log.txt dosyasını okuyup log tablosuna yansıtır
+│
+├── Ana Oyun Metotları/
+│   ├── oyunuBaslat()          # kelimeler.txt'den veri çeker, rastgele kelime seçer, UI'ı (pnlYildizlar) ve Timer'ı sıfırlar
+│   ├── tahminKontrol()        # Girilen harfin/kelimenin doğruluğunu saptar, adam asmaca resmini günceller ve bitişi denetler
+│   └── oyunSonucuKaydet()     # Oyun bittiğinde süreyi, tarihi ve sonucu (Kazanma/Kaybetme) dosyalara (I/O) yazar
+│
+├── Tablo ve Veri İşlemleri/
+│   ├── skorlariDoldur()       # JTable (tblSkorlar) bileşenine oyun geçmişini aktarır
+│   └── loglariDoldur()        # JTable (tblLoglar) bileşenine sistem hareketlerini aktarır
+│
+└── Buton (Event) Tetikleyicileri/
+    ├── btnHarfTahmin          # jTextField1'den alınan tek harfi secilenKelime ile kıyaslar
+    ├── btnKelimeTahmin        # jTextField2'den alınan tam metni secilenKelime ile kıyaslar
+    ├── menuYenidenBaslat      # Mevcut oyunu durdurup oyunuBaslat() metodunu çağırır
+    └── btnTemizle (Log/Skor)  # sifre.txt kontrolü yapar, başarılıysa verileri silip güvenlik logu atar
+
+```
 ## 🛠️ Kullanılan Teknolojiler
 * Java (JDK 8+)
 * Swing (GUI)
