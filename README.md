@@ -17,7 +17,9 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 
 * Oyun Ana Menüsü
  
-<img width="1092" height="627" alt="image" src="https://github.com/user-attachments/assets/3209065e-ca00-478f-b6ec-f19f5490824b" />
+<img width="1092" height="627" alt="image" src="https://github.com/user-attachments/assets/3209065e-ca00-478f-b6ec-f19f5490824b" />/t
+<img width="1082" height="517" alt="image" src="https://github.com/user-attachments/assets/f9d04623-53b3-44db-89ec-1f966d13d0fb" />
+
 
 * Oyun İçi Bildirimler
 
