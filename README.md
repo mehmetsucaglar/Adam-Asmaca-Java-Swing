@@ -41,7 +41,28 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 
 
 
+## 📁 Proje Dosya Yapısı
 
+Proje temel olarak Java kaynak kodları ve dışarıdan okunan veri dosyaları olmak üzere ikiye ayrılmıştır. Kodların sorunsuz çalışması için `P2Oyun` klasörünün `C:\` dizininde bulunması gerekmektedir.
+
+```text
+Adam-Asmaca-Java-Swing/
+├── src/
+│   └── OyunEkrani.java        # Oyunun ana arayüzü, olay dinleyicileri (Listeners) ve temel oyun mantığı
+│
+├── P2Oyun/                    # C:\ dizinine yerleştirilecek ana veri klasörü
+│   ├── TXTDosyalar/
+│   │   ├── kelimeler.txt      # Oyunda rastgele seçilecek kelimelerin havuzu (En az 6 harfli)
+│   │   ├── oyunlar.txt        # Oynanan oyunların tarih, süre ve sonuç kayıtları
+│   │   ├── log.txt            # Oyun sonu bildirimleri ve yetkisiz silme (yanlış şifre) denemesi kayıtları
+│   │   └── sifre.txt          # Skor ve log tablolarını temizlemek için gereken yönetici şifresi
+│   │
+│   └── Resimler/
+│       ├── 1.jpg              # Başlangıç durumu (boş darağacı)
+│       ├── ...                # Hatalı tahminlerde güncellenen ara aşamalar
+│       └── 11.jpg             # Oyun bitiş durumu (tamamlanmış adam asmaca)
+│
+└── README.md                  # Proje tanıtım, kurulum ve kullanım dokümantasyonu
 
 ## 🛠️ Kullanılan Teknolojiler
 * Java (JDK 8+)
