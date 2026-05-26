@@ -12,14 +12,14 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * **Güvenlikli Veri Temizleme:** Skorları veya logları temizlemek isteyen kullanıcının `sifre.txt` içerisindeki şifreyi doğru girmesi gerekir.
 ## 📸 Ekran Görüntüleri
 * Giriş Menüsü
-* 
+
 <img width="399" height="310" alt="image" src="https://github.com/user-attachments/assets/537a68ae-5708-433a-a39e-e00c38a66052" />
 
 * Oyun Ana Menüsü
-* 
+ 
 <img width="1092" height="627" alt="image" src="https://github.com/user-attachments/assets/3209065e-ca00-478f-b6ec-f19f5490824b" />
 
-*Oyun İçi Bildirimler
+* Oyun İçi Bildirimler
 
 <img width="405" height="140" alt="image" src="https://github.com/user-attachments/assets/c36d1582-ee12-434e-8a00-8e8531151daf" />
 <img width="257" height="141" alt="image" src="https://github.com/user-attachments/assets/63a1f319-787a-4f11-8bdb-4536292dc0fb" />
