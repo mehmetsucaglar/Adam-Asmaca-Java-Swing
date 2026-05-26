@@ -22,9 +22,13 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * Oyun İçi Bildirimler
 
 <img width="405" height="140" alt="image" src="https://github.com/user-attachments/assets/c36d1582-ee12-434e-8a00-8e8531151daf" />
+
 <img width="257" height="141" alt="image" src="https://github.com/user-attachments/assets/63a1f319-787a-4f11-8bdb-4536292dc0fb" />
+
 <img width="256" height="140" alt="image" src="https://github.com/user-attachments/assets/c2545053-cc34-459f-8b0b-5fbfc8d3128c" />
+
 <img width="258" height="143" alt="image" src="https://github.com/user-attachments/assets/3c98b630-5d5f-407f-955f-900a79c37fa6" />
+
 <img width="332" height="142" alt="image" src="https://github.com/user-attachments/assets/759c752e-abba-4dda-8d62-0f81484b7c2c" />
 
 
