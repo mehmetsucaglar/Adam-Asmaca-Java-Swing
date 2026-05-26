@@ -10,8 +10,20 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * **Skor ve Log Kayıt Sistemi:** * Oynanan her oyunun tarihi, süresi ve sonucu `oyunlar.txt` dosyasına kaydedilir.
   * Sistemdeki önemli olaylar ve hatalı şifre denemeleri `log.txt` dosyasına zaman damgasıyla yazılır.
 * **Güvenlikli Veri Temizleme:** Skorları veya logları temizlemek isteyen kullanıcının `sifre.txt` içerisindeki şifreyi doğru girmesi gerekir.
-  ## 📸 Ekran Görüntüleri
+## 📸 Ekran Görüntüleri
+* Giriş Menüsü
 <img width="399" height="310" alt="image" src="https://github.com/user-attachments/assets/537a68ae-5708-433a-a39e-e00c38a66052" />
+* Oyun Ana Menüsü
+<img width="1092" height="627" alt="image" src="https://github.com/user-attachments/assets/3209065e-ca00-478f-b6ec-f19f5490824b" />
+*Oyun İçi Bildirimler
+<img width="405" height="140" alt="image" src="https://github.com/user-attachments/assets/c36d1582-ee12-434e-8a00-8e8531151daf" />
+<img width="257" height="141" alt="image" src="https://github.com/user-attachments/assets/63a1f319-787a-4f11-8bdb-4536292dc0fb" />
+<img width="256" height="140" alt="image" src="https://github.com/user-attachments/assets/c2545053-cc34-459f-8b0b-5fbfc8d3128c" />
+<img width="258" height="143" alt="image" src="https://github.com/user-attachments/assets/3c98b630-5d5f-407f-955f-900a79c37fa6" />
+<img width="332" height="142" alt="image" src="https://github.com/user-attachments/assets/759c752e-abba-4dda-8d62-0f81484b7c2c" />
+
+
+
 
 ## 🛠️ Kullanılan Teknolojiler
 * Java (JDK 8+)
