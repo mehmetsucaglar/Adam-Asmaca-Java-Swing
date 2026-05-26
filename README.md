@@ -7,7 +7,7 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * **Dinamik Kelime Seçimi:** Oyun, kelimeleri `kelimeler.txt` dosyasından okur ve uzunluğu 6 harften büyük olanları rastgele seçer.
 * **Görsel Geri Bildirim:** Yanlış tahminlerde adam asmaca görselleri anlık olarak güncellenir.
 * **Zamanlayıcı (Timer):** Oyuncunun kelimeyi ne kadar sürede bulduğu saniye cinsinden takip edilir.
-* **Skor ve Log Kayıt Sistemi:** * Oynanan her oyunun tarihi, süresi ve sonucu `oyunlar.txt` dosyasına kaydedilir.
+* **Skor ve Log Kayıt Sistemi:** Oynanan her oyunun tarihi, süresi ve sonucu `oyunlar.txt` dosyasına kaydedilir.
   * Sistemdeki önemli olaylar ve hatalı şifre denemeleri `log.txt` dosyasına zaman damgasıyla yazılır.
 * **Güvenlikli Veri Temizleme:** Skorları veya logları temizlemek isteyen kullanıcının `sifre.txt` içerisindeki şifreyi doğru girmesi gerekir.
 ## 📸 Ekran Görüntüleri
