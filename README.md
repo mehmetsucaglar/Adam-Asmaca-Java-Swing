@@ -9,6 +9,7 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * **Zamanlayıcı (Timer):** Oyuncunun kelimeyi ne kadar sürede bulduğu saniye cinsinden takip edilir.
 * **Skor ve Log Kayıt Sistemi:** Oynanan her oyunun tarihi, süresi ve sonucu `oyunlar.txt` dosyasına kaydedilir.
   * Sistemdeki önemli olaylar ve hatalı şifre denemeleri `log.txt` dosyasına zaman damgasıyla yazılır.
+* * Güvenli Giriş Sistemi: Oyuna erişim, şifreli bir giriş ekranı ile sağlanır. 3 hatalı girişte sistem kendini kilitler.
 * **Güvenlikli Veri Temizleme:** Skorları veya logları temizlemek isteyen kullanıcının `sifre.txt` içerisindeki şifreyi doğru girmesi gerekir.
 ## 📸 Ekran Görüntüleri
 * Giriş Menüsü
