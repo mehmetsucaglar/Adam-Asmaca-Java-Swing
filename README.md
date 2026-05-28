@@ -50,8 +50,8 @@ Oyunun tüm mantığı, arayüz bileşenleri ve dosya işlemleri modüler metotl
 ```text
 OyunEkrani.class/
 ├── OyunEkrani() (Constructor)
-│   ├── skorlariDoldur()       # Açılışta oyunlar.txt dosyasını okuyup skor tablosuna yansıtır
-│   └── loglariDoldur()        # Açılışta log.txt dosyasını okuyup log tablosuna yansıtır
+│   ├── skorKayit()       # Açılışta oyunlar.txt dosyasını okuyup skor tablosuna yansıtır
+│   └── logKayit()        # Açılışta log.txt dosyasını okuyup log tablosuna yansıtır
 │
 ├── Ana Oyun Metotları/
 │   ├── oyunuBaslat()          # kelimeler.txt'den veri çeker, rastgele kelime seçer, UI'ı (pnlYildizlar) ve Timer'ı sıfırlar
