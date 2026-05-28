@@ -12,11 +12,11 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 * **Güvenli Giriş Sistemi:** Oyuna erişim, şifreli bir giriş ekranı ile sağlanır. 3 hatalı girişte sistem kendini kilitler.
 * **Güvenlikli Veri Temizleme:** Skorları veya logları temizlemek isteyen kullanıcının `sifre.txt` içerisindeki şifreyi doğru girmesi gerekir.
 ## 📸 Ekran Görüntüleri
-* Giriş Menüsü
+* **Giriş Menüsü**
 
 <img width="399" height="310" alt="image" src="https://github.com/user-attachments/assets/537a68ae-5708-433a-a39e-e00c38a66052" />
 
-* Oyun Ana Menüsü
+* **Oyun Ana Menüsü**
  
 <img width="1092" height="627" alt="image" src="https://github.com/user-attachments/assets/3209065e-ca00-478f-b6ec-f19f5490824b" />
 <img width="1082" height="517" alt="image" src="https://github.com/user-attachments/assets/f9d04623-53b3-44db-89ec-1f966d13d0fb" />
@@ -24,7 +24,7 @@ Bu proje, Java Swing kullanılarak geliştirilmiş, grafik arayüzlü ve dosya i
 
 
 
-* Oyun İçi Bildirimler ve Görüntüler
+* **Oyun İçi Bildirimler ve Görüntüler**
 
 <img width="1087" height="514" alt="image" src="https://github.com/user-attachments/assets/c650395e-7d9c-40ad-8a0e-2d3ee2c5faef" />
 
@@ -73,6 +73,7 @@ OyunEkrani.class/
 * Java (JDK 8+)
 * Swing (GUI)
 * File I/O (BufferedReader, FileWriter)
+* Geliştirme Ortamı: Apache NetBeans IDE
 
 ## ⚙️ Kurulum ve Çalıştırma
 Projeyi kendi bilgisayarınızda çalıştırmak için:
